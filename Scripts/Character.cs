@@ -6,7 +6,7 @@ namespace DSA.Extensions.Characters
 	[System.Serializable]
 	public class Character : TraitedMonoBehaviour, IInteractable
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Character; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Character; } }
 
 		//used by the player to interact with game entities
 		public virtual void Interact()

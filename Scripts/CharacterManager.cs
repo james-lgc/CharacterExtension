@@ -6,7 +6,7 @@ namespace DSA.Extensions.Characters
 	//Will likely be extended later as more NPC functionality added
 	public class CharacterManager : ManagerBase
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Character; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Character; } }
 
 		private Character[] characters;
 
